@@ -8,262 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Document</title>
-    <style>
-        body{
-
-            background-color:#F8F9FA;
-        }
-        .align{
-           margin-left: 35%;
-        }
-        .main-container{
-            margin-top: 6%;
-        }
-        .text-color{
-            color: #002057;
-        }
-        .me-auto{
-
-           float:right;
-        }
-        .nav-item{
-            padding: 5px 10px 5px 10px ;
-
-        }
-        .text2-color{
-            color: blue;
-        }
-        .container-color{
-          
-            padding: 5%  5%;
-        }
-        .nav-link{
-
-            color: black;
-            font-weight: bold;
-            font-family:  'Bitter', serif;
-            font-size: large;
-        }
-        .Contact{
-            text-align: center; 
-            padding: 3%;
-             text-decoration: underline;
-             text-underline-offset:20px
-        }
-       
-        .nav-link:hover{
-
-            color: #e42b69;
-           text-decoration: 2px underline ;
-           text-underline-offset: 10px;
-        }
-        .logo{
-            width: 150px;
-            height: 60px;
-            margin-left: 10%;
-        }
-        .profile-2{
-            width: 100%;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            
-          
-        }
-        .profile-2:hover {
-            transform: rotate(45deg) translate(40%, 0);
-            transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
-            }
-        
-        .text-align{
-           
-           color: white;
-           padding: 10px 10px;
-           
-
-        }
-        .btn-color{
-            background-color: #e42b69;
-            margin-top: 5%;
-        }
-        .btn-color:hover{
-            background-color: #a5214d;
-        }
-        .btn-link{
-
-            text-decoration: none;
-            color: white;
-        }
-        .btn-link:hover{
-            color: white;
-            
-        }
-        .attr-space{
-            color: blue; margin-left: 10%; 
-        }
-        .email-space{
-            color: blue; margin-left: 10%; 
-        }
-
-
-        
-
-        .profile{
-            width: 60%;
-            border-radius: 100%;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-        .card{ 
-          margin: 3%;  
-          
-         
-          
-        }
-        .card:hover{
-            background-color:white;
-        }
-        .card-title{
-            color: white;
-            float: left;
-        }
-       
-        .overlay {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color:#ECEDED;
-        overflow: hidden;
-        width: 100%;
-        height: 0;
-        transition: .5s ease;
-        }
-        .overlay-img{
-            position: relative;
-        }
-
-        .overlay-img:hover .overlay {
-            height: 100%;
-        }
-        .primg-wd{
-            width: 40%;
-        }
-        
-
-.center {
-  position: relative;
-  padding: 50px 50px;
-  background: #fff;
-  border-radius: 10px;
-}
-.center h2 {
-  font-size: 2em;
-  border-left: 5px solid dodgerblue;
-  padding: 10px;
-  color: #000;
-  letter-spacing: 5px;
-  margin-bottom: 60px;
-  font-weight: bold;
-  padding-left: 10px;
-}
-.center .inputbox {
-  position: relative;
-  width: 100%;
-  height: 50px;
-  margin-bottom: 20px;
-}
-.center .inputbox input {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  border: 2px solid #000;
-  outline: none;
-  background: none;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 1.2em;
-}
-.center .inputbox:last-child {
-  margin-bottom: 0;
-}
-.center .inputbox span {
-  position: absolute;
-  top: 14px;
-  left: 20px;
-  font-size: 1em;
-  transition: 0.6s;
-  font-family: sans-serif;
-}
-.center .inputbox input:focus ~ span,
-.center .inputbox input:valid ~ span {
-  transform: translateX(-13px) translateY(-35px);
-  font-size: 1em;
-}
-.center .inputbox [type="button"] {
-  width: 30%;
-  background: dodgerblue;
-  color: #fff;
-  border: #fff;
-}
-.inputbox:hover [type="button"] {
-  background: linear-gradient(45deg, greenyellow, dodgerblue);
-}
-.container-img{
-    background-image: url("./assets/images/img-2.png");
-    background-repeat: no-repeat;
-    background-size: 50% 80%;
-    
-    
-   
-}
-     
-        @media (max-width:571px) {
-            .nav-link{
-
-                border-bottom: 1px solid black;
-                width: 90%;
-              
-            }
-            .nav-link:hover{
-                text-decoration: none ;
-                 text-underline-offset: 1px;
-            }
-            .profile-2{
-             width: 60%;
-             margin-left: 20%;
-             padding: 5px;
-             margin-bottom: 10px;
-            
-           
-            }
-            .profile{
-                margin-left: 20%;
-             }
-            .attr-space{
-                margin-left: 25%; 
-
-            }
-            .email-space{
-                padding-left: 0px;
-                
-
-            }
-            .btn-color{
-                margin-left: 20%;
-            }
-            .primg-wd{
-                width: 100%;
-            }
-            
-            .center .inputbox [type="button"] {
-            width: 50%;
-            background: dodgerblue;
-            color: #fff;
-            border: #fff;
-            }
-            
-        }
-    </style>
+    <link rel="stylesheet" href="./index.css">
+    <title>Portfolio</title>
+  
 </head>
 <body>
     
@@ -313,7 +60,39 @@
                 <h3>And I'm a <span style="color: #e42b69;">Web Developer</span> </h3>
             </div>
             <div class="col-lg-6">
-                <img src="./assets/images/profile.jpg" class="profile" alt="profile">
+                <div class="container3 noselect">
+                    <div class="canvas2">
+                      <div class="tracker2 tr-1"></div>
+                      <div class="tracker2 tr-2"></div>
+                      <div class="tracker2 tr-3"></div>
+                      <div class="tracker2 tr-4"></div>
+                      <div class="tracker2 tr-5"></div>
+                      <div class="tracker2 tr-6"></div>
+                      <div class="tracker2 tr-7"></div>
+                      <div class="tracker2 tr-8"></div>
+                      <div class="tracker2 tr-9"></div>
+                      <div class="tracker2 tr-10"></div>
+                      <div class="tracker2 tr-11"></div>
+                      <div class="tracker2 tr-12"></div>
+                      <div class="tracker2 tr-13"></div>
+                      <div class="tracker2 tr-14"></div>
+                      <div class="tracker2 tr-15"></div>
+                      <div class="tracker2 tr-16"></div>
+                      <div class="tracker2 tr-17"></div>
+                      <div class="tracker2 tr-18"></div>
+                      <div class="tracker2 tr-19"></div>
+                      <div class="tracker2 tr-20"></div>
+                      <div class="tracker2 tr-21"></div>
+                      <div class="tracker2 tr-22"></div>
+                      <div class="tracker2 tr-23"></div>
+                      <div class="tracker2 tr-24"></div>
+                      <div class="tracker2 tr-25"></div>
+                      <div id="card3">
+                        
+                      </div>
+                    </div>
+                  </div>
+               
             </div>
         </div>
         
@@ -444,7 +223,10 @@
     <div style=" padding: 5%;">
         <h1 style="text-align: center; padding: 1%;" id="projects"><i class="fa fa-briefcase"></i>  Projects Made</h1>
         <div class="container" style="background-color: #000031c5; border-radius:20px;padding: 2%;">
-            <div class="card primg-wd" style="position: relative;" >
+          <div class="row">
+
+            <div class="col-lg-6">
+              <div class="card " style="position: relative;" >
                 <div class="overlay-img">
                     <img class="card-img-top" src="./assets/images/projects/img-1.png" alt="Card image" >
                     <div class="overlay">
@@ -459,10 +241,31 @@
                     <a href="#" class="btn btn-dark align" ><i class="fa fa-eye"></i>View</a>
                 </div>
                     <h4  style="background-color: yellow;height: 50px;">Wedding Planners Website</h4>
-                </div>
-              
-               
+                </div>               
             </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card " style="position: relative;" >
+                <div class="overlay-img">
+                    <img class="card-img-top" src="./assets/images/projects/img-2.png" alt="Card image" >
+                    <div class="overlay">
+                    
+                        <h4  style="background-color: yellow;height: 50px;">SVS Mirchi Website</h4>
+                    
+                    <p>The  website offers a user-friendly interface
+                        It features a wide range of  resources, 
+                        including vendor directories and inspiration galleries.
+                    </p>
+                
+                    <a href="#" class="btn btn-dark align" ><i class="fa fa-eye"></i>View</a>
+                </div>
+                    <h4  style="background-color: yellow;height: 50px;">Wedding Planners Website</h4>
+                </div>               
+            </div>
+            </div>
+            
+          </div>
+           
         </div>
     </div>
     <!-- form div -->
