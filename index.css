@@ -578,5 +578,8 @@ user-select: none;
     color: #fff;
     border: #fff;
     }
+    .card-title{
+        display: none;
+    }
     
 }
